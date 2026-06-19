@@ -1,14 +1,4 @@
-# 📅 Планировщик студента v4 — "Midnight Glass"
-
-## 🚀 Запуск в PyCharm
-
-1. Открой папку `student_planner_v3` как проект
-2. Интерпретатор: Python 3.10+
-3. Запусти **`main.py`**
-4. Войди с тестовым аккаунтом или зарегистрируйся
-
-> Никаких pip install — только стандартная библиотека Python.
-
+# 📅 Планировщик студента  — "Midnight Glass"
 ---
 
 ## 🔑 Тестовые аккаунты
@@ -25,25 +15,25 @@
 ## 📁 Структура проекта
 
 ```
-student_planner_v3/
-├── main.py                          ← ТОЧКА ЗАПУСКА
+student_planner/
+├── main.py                         
 │
 ├── db/
-│   └── database.py                  ← Участник 1 (БД + ERD)
+│   └── database.py                  
 │
 ├── notifications/
-│   └── notification_service.py      ← Участник 1 (push)
+│   └── notification_service.py      
 │
 ├── services/
-│   ├── task_service.py              ← Участник 3 (бизнес-логика)
-│   └── email_service.py             ← Участник 3 (email)
+│   ├── task_service.py              
+│   └── email_service.py             
 │
 ├── ui/
-│   ├── theme.py                     ← Участник 4 (тема оформления)
-│   ├── widgets.py                   ← Участник 4 (кастомные виджеты)
-│   └── main_window.py               ← Участник 2 (все окна)
+│   ├── theme.py                     
+│   ├── widgets.py                  
+│   └── main_window.py              
 │
-└── uploads/                         ← Загруженные файлы
+└── uploads/                         
 ```
 
 ---
